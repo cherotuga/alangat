@@ -1,20 +1,70 @@
 baseURL =  "/"
+
+# Emoji in markdown files
+enableEmoji = true
+
 languageCode = 'en-us'
+
 title = 'Angela Langat'
+
 theme = "themes/alangat"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.qmd$", "\\.ipynb$", "\\.py$"]
+
+[params]
+description = "Portfolio"
+email = "angela.langat@yahoo.com"
+favicon = '/favicon.ico'
+# Dark mode support
+# Supported value are :
+# - off
+# - always
+# If commented the theme will use the browser theme.
+# darkMode = 'always'
+
+# Social parameters for contact_icons widget
+[[params.social]]
+alt = "email icon"
+icon = "/icons/email.svg"
+name = "email"
+url = "mailto:angela.langat@yahoo.com"
+
+[[params.social]]
+alt = "github icon"
+blank = true
+icon = "/icons/github.svg"
+name = "github"
+url = "https://github.com/Tagnal-hub"
+
+
+[[params.social]]
+alt = "linkedin icon"
+blank = true
+icon = "/icons/li.svg"
+name = "linkedin"
+url = "https://www.linkedin.com/in/angela-langat/"
 
 [menu]
   [[menu.main]]
     identifier = "home"
+    name = "Home"
     url = "/"
     weight = 10
 
   [[menu.main]]
     identifier = "blog"
+    name = "Blog"
     url = "/blog/"
     weight = 20
 
   [[menu.main]]
     identifier = "projects"
+    name = "Projects"
     url = "/projects/"
     weight = 30
+
+  [[menu.main]]
+    identifier = "datasets"
+    name = "Datasets"
+    url = "/datasets/"
+    weight = 40

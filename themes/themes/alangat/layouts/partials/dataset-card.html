@@ -1,0 +1,59 @@
+{{ $dateFormat := default "Jan 2, 2006" .Site.Params.dateFormat }}
+<article class="bg-white rounded-lg shadow-lg overflow-hidden mb-8 transition-transform duration-300 hover:scale-[1.02]">
+    <a href="{{ .RelPermalink }}" class="no-underline">
+        <div class="p-6">
+            <!-- Dataset Header -->
+            <div class="flex justify-between items-start mb-4">
+                <h2 class="text-2xl font-bold text-gray-900">{{ .Title }}</h2>
+                <span class="status-badge {{ if eq .Params.status "Active" }}bg-green-100{{ else }}bg-yellow-100{{ end }} px-2 py-1 rounded text-sm">
+                    {{ .Params.status }}
+                </span>
+            </div>
+
+            <!-- Dataset Meta Information -->
+            <div class="flex flex-wrap gap-4 text-sm text-gray-600 mb-4">
+                <div>
+                    <span class="font-semibold">Updated:</span>
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">
+                        {{ .Date.Format $dateFormat }}
+                    </time>
+                </div>
+                {{ if .Params.size }}
+                <div>
+                    <span class="font-semibold">Size:</span>
+                    <span>{{ .Params.size }}</span>
+                </div>
+                {{ end }}
+                {{ if .Params.records }}
+                <div>
+                    <span class="font-semibold">Records:</span>
+                    <span>{{ .Params.records }}</span>
+                </div>
+                {{ end }}
+            </div>
+
+            <!-- Description -->
+            <p class="text-gray-700 mb-4">{{ .Description }}</p>
+
+            <!-- Format Badges -->
+            {{ if .Params.format }}
+            <div class="flex flex-wrap gap-2 mb-4">
+                {{ range .Params.format }}
+                <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-sm">
+                    {{ . }}
+                </span>
+                {{ end }}
+            </div>
+            {{ end }}
+
+            <!-- Tags -->
+            <div class="flex flex-wrap gap-2">
+                {{ range .Params.tags }}
+                <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-sm">
+                    #{{ . }}
+                </span>
+                {{ end }}
+            </div>
+        </div>
+    </a>
+</article>

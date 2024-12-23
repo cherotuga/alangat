@@ -1,0 +1,121 @@
+{{ define "main" }}
+<button onclick="window.history.back()" class="bg-transparent border-none font-bold">&larr;{{ i18n "back" |
+    title}}</button>
+<div class="dataset-single-container max-w-4xl mx-auto px-4 py-8">
+    <!-- Dataset Header -->
+    <header class="dataset-header mb-8">
+        <h1 class="text-4xl font-bold mb-4">{{ .Title }}</h1>
+        
+        <!-- Dataset Metadata Grid -->
+        <div class="dataset-meta grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+            <div class="metadata-item">
+                <span class="font-semibold">Status:</span>
+                <span class="status-badge {{ if eq .Params.status "Active" }}bg-green-100{{ else }}bg-yellow-100{{ end }} px-2 py-1 rounded">
+                    {{ .Params.status }}
+                </span>
+            </div>
+            <div class="metadata-item">
+                <span class="font-semibold">Last Updated:</span>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                </time>
+            </div>
+            <div class="metadata-item">
+                <span class="font-semibold">Size:</span>
+                <span>{{ .Params.size }}</span>
+            </div>
+            <div class="metadata-item">
+                <span class="font-semibold">Records:</span>
+                <span>{{ .Params.records }}</span>
+            </div>
+            <div class="metadata-item">
+                <span class="font-semibold">Update Frequency:</span>
+                <span>{{ .Params.update_frequency }}</span>
+            </div>
+            <div class="metadata-item">
+                <span class="font-semibold">License:</span>
+                <span>{{ .Params.license }}</span>
+            </div>
+        </div>
+
+        <!-- Dataset Description -->
+        <div class="dataset-description text-xl mb-6">
+            {{ .Params.description }}
+        </div>
+    </header>
+
+    <!-- Available Formats -->
+    {{ if .Params.format }}
+    <div class="dataset-formats mb-6">
+        <h2 class="text-2xl font-semibold mb-3">Available Formats</h2>
+        <div class="flex flex-wrap gap-2">
+            {{ range .Params.format }}
+            <span class="bg-blue-100 px-3 py-1 rounded-full text-sm">
+                {{ . }}
+            </span>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- Dataset Tags -->
+    <div class="dataset-tags mb-6">
+        <h2 class="text-2xl font-semibold mb-3">Categories & Topics</h2>
+        <div class="flex flex-wrap gap-2">
+            {{ range .Params.tags }}
+            <a class="no-underline tag bg-gray-100 px-3 py-1 rounded-full text-sm" 
+                href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">
+                #{{ . }}
+            </a>
+            {{ end }}
+        </div>
+    </div>
+
+    <!-- Citation Section -->
+    {{ if .Params.citation }}
+    <div class="citation-section mb-6">
+        <h2 class="text-2xl font-semibold mb-3">How to Cite</h2>
+        <div class="bg-gray-50 p-4 rounded-lg font-mono text-sm">
+            {{ .Params.citation }}
+        </div>
+    </div>
+    {{ end }}
+
+    <!-- Collaborators Section -->
+    {{ if .Params.collaborators }}
+    <div class="collaborators mb-6">
+        <h2 class="text-2xl font-semibold mb-3">Contributors</h2>
+        <ul class="list-disc list-inside">
+            {{ range .Params.collaborators }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+    {{ end }}
+
+    <!-- Download and Documentation Links -->
+    <div class="dataset-actions flex gap-4 mb-8">
+        {{ if .Params.download }}
+        <a href="{{ .Params.download }}" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+            Download Dataset
+        </a>
+        {{ end }}
+        {{ if .Params.documentation }}
+        <a href="{{ .Params.documentation }}" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           class="inline-block bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+            View Documentation
+        </a>
+        {{ end }}
+    </div>
+
+    <!-- Main Content -->
+    <div class="dataset-content prose max-w-none">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

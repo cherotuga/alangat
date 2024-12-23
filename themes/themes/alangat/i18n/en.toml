@@ -49,6 +49,9 @@ other = "Projects"
 [blog]
 other = "Blog"
 
+[datasets]
+other = "Datasets"
+
 [present]
 other = "Present"
 

@@ -2,13 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/post1/</loc>
-  </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/categorical/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/datasets/gok_finance/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/datasets/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/healthcare/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/temporal/</loc>
+    <lastmod>2024-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/dashboard/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/health/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projects/inspiredashboard/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projects/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/r-shiny/</loc>
+    <lastmod>2024-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/projects/fcdashboard/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
@@ -16,13 +44,26 @@
     <loc>//localhost:1313/tags/gender/</loc>
     <lastmod>2024-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/projects/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/abm/</loc>
+    <lastmod>2024-06-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-12-01T00:00:00+00:00</lastmod>
+    <loc>//localhost:1313/tags/idm/</loc>
+    <lastmod>2024-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/projects/rvf/</loc>
+    <lastmod>2024-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/python/</loc>
+    <lastmod>2024-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/starsim/</loc>
+    <lastmod>2024-06-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blog/</loc>
+    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blog/lindamtoto/</loc>
+    <lastmod>2024-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url>

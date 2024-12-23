@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categorical on Angela Langat</title>
+    <link>//localhost:1313/tags/categorical/</link>
+    <description>Recent content in Categorical on Angela Langat</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/categorical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dataset Name</title>
+      <link>//localhost:1313/datasets/gok_finance/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/datasets/gok_finance/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
