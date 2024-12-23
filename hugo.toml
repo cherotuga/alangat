@@ -1,0 +1,20 @@
+baseURL =  "/"
+languageCode = 'en-us'
+title = 'Angela Langat'
+theme = "themes/alangat"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "blog"
+    url = "/blog/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "projects"
+    url = "/projects/"
+    weight = 30

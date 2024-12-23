@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gender on Angela Langat</title>
+    <link>//localhost:1313/tags/gender/</link>
+    <description>Recent content in Gender on Angela Langat</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/gender/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Femicide Count Dashboard</title>
+      <link>//localhost:1313/projects/fcdashboard/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/fcdashboard/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

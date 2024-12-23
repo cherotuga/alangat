@@ -1,0 +1,34 @@
+{{/* layouts/partials/head/js.html */}}
+{{/* Google Analytics */}}
+{{ template "_internal/google_analytics.html" . }}
+
+{{/* Initialize the JavaScript bundle */}}
+{{ $js_bundle := slice }}
+
+{{/* Add custom JavaScript files from site params */}}
+{{ range site.Params.customJS }}
+    {{ $script := resources.Get . }}
+    {{ $js_bundle = $js_bundle | append $script }}
+{{ end }}
+
+{{/* Add dark mode script if darkmode param is not set */}}
+{{ if eq (isset .Site.Params "darkmode") false }}
+    {{ $js_bundle = $js_bundle | append (resources.Get "js/dark-mode.js") }}
+{{ end }}
+
+{{/* Add projects.js if on projects page */}}
+{{ if eq .Type "projects" }}
+    {{ $projectsJS := resources.Get "js/projects.js" }}
+    {{ $js_bundle = $js_bundle | append $projectsJS }}
+{{ end }}
+
+{{/* Bundle and output all JavaScript if there are any scripts */}}
+{{ if gt (len $js_bundle) 0 }}
+    {{ if hugo.IsServer }}
+        {{ $js_bundle = $js_bundle | resources.Concat "js/bundle.js" }}
+        <script src="{{ $js_bundle.RelPermalink }}" defer></script>
+    {{ else }}
+        {{ $js_bundle = $js_bundle | resources.Concat "js/bundle.min.js" | minify | fingerprint "md5" }}
+        <script src="{{ $js_bundle.Permalink }}" integrity="{{ $js_bundle.Data.Integrity }}" crossorigin="anonymous" defer></script>
+    {{ end }}
+{{ end }}

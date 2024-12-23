@@ -1,0 +1,14 @@
+<a href="{{ .Permalink }}" class="no-underline block">
+    <div class="mb-4 border border-primary-light dark:border-secondary-light rounded-md overflow-hidden">
+        {{/* A span is used instead a div for accessibility, <a> tag can't wrap div elements */}}
+        <span class="block">
+            {{ with .Params.image }}
+                <div class="h-48 overflow-hidden bg-cover bg-center" style="background-image: url('{{ . | absURL }}');">
+                </div>
+            {{ end }}
+            <div class="px-4 mt-3 mb-3">
+                <h2 class="m-0 inline-block overflow-ellipsis">{{ .Title | emojify }}</h2>
+            </div>
+        </span>
+    </div>
+</a>

@@ -1,0 +1,153 @@
+// Variables
+$primary-color: #007acc
+$secondary-color: #005f99
+$background-color: #f5f7fa
+$card-background: #ffffff
+$text-color: #2d3748
+$border-radius: 8px
+$transition-speed: 0.3s
+
+// Mixins
+@mixin card-shadow
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+  transition: box-shadow $transition-speed ease
+  
+  &:hover
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15)
+
+@mixin flex-center
+  display: flex
+  align-items: center
+  justify-content: center
+
+// Main projects container
+.projects
+  max-width: 1200px
+  margin: 0 auto
+  padding: 2rem
+  background: $background-color
+
+  h1
+    text-align: center
+    margin-bottom: 2rem
+    font-size: 2.5rem
+    color: $text-color
+
+// Enhanced grid layout
+.projects-grid
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+  gap: 2rem
+  padding: 1rem
+
+// Improved project cards
+.projects-item
+  background: $card-background
+  border-radius: $border-radius
+  overflow: hidden
+  @include card-shadow
+  border: none
+  
+  .image-container
+    position: relative
+    padding-top: 56.25%
+    overflow: hidden
+    
+    img
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      object-fit: cover
+      transition: transform $transition-speed ease
+    
+    &:hover img
+      transform: scale(1.05)
+  
+  .content
+    padding: 1.5rem
+    
+    h2
+      font-size: 1.5rem
+      margin-bottom: 1rem
+      color: $text-color
+    
+    p
+      color: lighten($text-color, 20%)
+      line-height: 1.6
+      margin-bottom: 1rem
+
+// Enhanced tags
+.tag
+  background: rgba($primary-color, 0.1)
+  color: $primary-color
+  padding: 0.4rem 0.8rem
+  margin: 0.25rem
+  border-radius: 20px
+  font-size: 0.875rem
+  transition: all $transition-speed ease
+  
+  &:hover
+    background: rgba($primary-color, 0.2)
+
+// Improved filter section
+.filter
+  background: $card-background
+  padding: 1.5rem
+  border-radius: $border-radius
+  margin-bottom: 2rem
+  @include card-shadow
+  
+  h3
+    color: $text-color
+    margin-bottom: 1rem
+  
+  .filter-tag
+    background: transparent
+    border: 1px solid $primary-color
+    color: $primary-color
+    padding: 0.5rem 1rem
+    margin: 0.25rem
+    border-radius: 20px
+    transition: all $transition-speed ease
+    
+    &:hover,
+    &.active
+      background: $primary-color
+      color: white
+
+// Enhanced pagination
+.pagination
+  @include flex-center
+  gap: 0.5rem
+  margin-top: 3rem
+  
+  .btn
+    padding: 0.75rem 1.25rem
+    border-radius: $border-radius
+    background: $card-background
+    color: $primary-color
+    border: 1px solid $primary-color
+    transition: all $transition-speed ease
+    
+    &:hover:not(:disabled)
+      background: $primary-color
+      color: white
+    
+    &.active
+      background: $primary-color
+      color: white
+    
+    &:disabled
+      opacity: 0.5
+      cursor: not-allowed
+
+// Responsive adjustments
+@media (max-width: 768px)
+  .projects-grid
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+  
+  .filter .filter-tag
+    padding: 0.4rem 0.8rem
+    font-size: 0.8rem

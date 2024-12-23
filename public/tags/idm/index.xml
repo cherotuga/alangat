@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Idm on Angela Langat</title>
+    <link>//localhost:1313/tags/idm/</link>
+    <description>Recent content in Idm on Angela Langat</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/idm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Missing Cattle Rift Valley Fever Cases in Uganda</title>
+      <link>//localhost:1313/projects/rvf/</link>
+      <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/rvf/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

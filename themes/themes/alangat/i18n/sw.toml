@@ -1,0 +1,56 @@
+[tagged_in]
+other = "Lebo"
+
+[other_tags]
+other = "Lebo nyinginezo"
+
+[read_more]
+other = "Soma zaidi"
+
+[name]
+other = "Jina"
+
+[your_message]
+other = "Ujumbe wako"
+
+[cancel]
+other = "Futa"
+
+[submit]
+other = "Wasilisha"
+
+[previous]
+other = "Yaliyotangulia"
+
+[next]
+other = "Yanayofuata"
+
+[back]
+other = "Nyuma"
+
+[contact]
+other = "Sema nami"
+
+[contact_email]
+other = "Sema nami kupitia baruapepe"
+
+[latest_post]
+other = "Chapisho jipya zaidi"
+
+[reading_time]
+other = "Soma kwa dakika {{ .ReadingTime }}"
+
+[home]
+other = "Nyumbani"
+
+[projects]
+other = "Miradi"
+
+[blog]
+other = "Makala"
+
+[present]
+other = "Yaliyomo"
+
+[required_fields]
+other = "Yanayohitajika"
