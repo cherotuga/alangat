@@ -2,87 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Angela Langat</title>
-    <link>//localhost:1313/tags/</link>
+    <link>//localhost:6961/tags/</link>
     <description>Recent content in Tags on Angela Langat</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:6961/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Categorical</title>
-      <link>//localhost:1313/tags/categorical/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/categorical/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Healthcare</title>
-      <link>//localhost:1313/tags/healthcare/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/healthcare/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Temporal</title>
-      <link>//localhost:1313/tags/temporal/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/temporal/</guid>
+      <title>Expenditure</title>
+      <link>//localhost:6961/tags/expenditure/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:6961/tags/expenditure/</guid>
       <description></description>
     </item>
     <item>
       <title>Dashboard</title>
-      <link>//localhost:1313/tags/dashboard/</link>
+      <link>//localhost:6961/tags/dashboard/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/dashboard/</guid>
+      <guid>//localhost:6961/tags/dashboard/</guid>
       <description></description>
     </item>
     <item>
       <title>Health</title>
-      <link>//localhost:1313/tags/health/</link>
+      <link>//localhost:6961/tags/health/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/health/</guid>
+      <guid>//localhost:6961/tags/health/</guid>
       <description></description>
     </item>
     <item>
       <title>R-Shiny</title>
-      <link>//localhost:1313/tags/r-shiny/</link>
+      <link>//localhost:6961/tags/r-shiny/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/r-shiny/</guid>
+      <guid>//localhost:6961/tags/r-shiny/</guid>
       <description></description>
     </item>
     <item>
       <title>Gender</title>
-      <link>//localhost:1313/tags/gender/</link>
+      <link>//localhost:6961/tags/gender/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/gender/</guid>
+      <guid>//localhost:6961/tags/gender/</guid>
       <description></description>
     </item>
     <item>
       <title>Abm</title>
-      <link>//localhost:1313/tags/abm/</link>
+      <link>//localhost:6961/tags/abm/</link>
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/abm/</guid>
+      <guid>//localhost:6961/tags/abm/</guid>
       <description></description>
     </item>
     <item>
       <title>Idm</title>
-      <link>//localhost:1313/tags/idm/</link>
+      <link>//localhost:6961/tags/idm/</link>
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/idm/</guid>
+      <guid>//localhost:6961/tags/idm/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>//localhost:1313/tags/python/</link>
+      <link>//localhost:6961/tags/python/</link>
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/python/</guid>
+      <guid>//localhost:6961/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Starsim</title>
-      <link>//localhost:1313/tags/starsim/</link>
+      <link>//localhost:6961/tags/starsim/</link>
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/starsim/</guid>
+      <guid>//localhost:6961/tags/starsim/</guid>
       <description></description>
     </item>
   </channel>
