@@ -1,2 +1,6 @@
 /.quarto/
 .DS_Store
+node_modules/
+public/
+resources/
+.hugo_build.lock
