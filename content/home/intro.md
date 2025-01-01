@@ -4,17 +4,17 @@ weight = 10
 landing_media = "/img/home.jpg"
 
 [[btn]]
-    url = "/blog"
+    url = "/blog/"
     label = "Blog"
     primary = true
 
 [[btn]]
-    url = "/projects"
+    url = "/projects/"
     label = "Projects"
     primary = true
 
 [[btn]]
-    url = "/datasets"
+    url = "/datasets/"
     label = "Datasets"
     primary = true
 
