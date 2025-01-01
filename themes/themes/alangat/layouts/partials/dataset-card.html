@@ -5,9 +5,6 @@
             <!-- Dataset Header -->
             <div class="flex justify-between items-start mb-4">
                 <h2 class="text-2xl font-bold text-gray-900">{{ .Title }}</h2>
-                <span class="status-badge {{ if eq .Params.status "Active" }}bg-green-100{{ else }}bg-yellow-100{{ end }} px-2 py-1 rounded text-sm">
-                    {{ .Params.status }}
-                </span>
             </div>
 
             <!-- Dataset Meta Information -->

@@ -1,0 +1,78 @@
+---
+title: "County Department Finances FY 2023/24"
+description: "Controller of Budget data on county departmental budgets, exchequer releases and expenditure"
+format: pdf
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(knitr)
+library(scales)
+
+data <- read.csv("../data/county-finances-sep2024.csv")
+```
+
+## Dataset Overview
+
+This documentation describes county financial data from Kenya's Controller of Budget for FY 2023/24 by departments.
+
+### Key Information
+```{r key-info, echo=FALSE}
+info <- list(
+  "Size" = "74KB",
+  "Records" = nrow(data),
+  "Time Period" = "2023-2024"
+)
+
+data.frame(
+  Value = unlist(info)
+) |> 
+  kable()
+```
+
+## Data Dictionary
+
+```{r dictionary, echo=FALSE}
+dictionary <- tibble(
+  Variable = c(
+    "department", "budget_rec", "budget_dev", "exch_rec", "exch_dev",
+    "exp_rec", "exp_dev", "exp_exch_rec", "exp_exch_dev", "abs_rec",
+    "abs_dev", "county"
+  ),
+  Description = c(
+    "Department name",
+    "Recurrent budget allocation (Million KES)",
+    "Development budget allocation (Million KES)",
+    "Recurrent exchequer releases (Million KES)",
+    "Development exchequer releases (Million KES)",
+    "Recurrent expenditure (Million KES)",
+    "Development expenditure (Million KES)",
+    "Recurrent expenditure as % of exchequer",
+    "Development expenditure as % of exchequer",
+    "Recurrent absorption rate (%)",
+    "Development absorption rate (%)",
+    "County name"
+  ),
+  Type = c(
+    "Character", rep("Numeric", 10), "Character"
+  )
+)
+
+kable(dictionary)
+```
+
+## Data Quality Notes
+
+The analysis in this document uses data from the Controller of Budget's reports.  
+My cleaning and scraping script is available at [Github](https://github.com/Tagnal-hub/data)
+
+
+### Data Source
+Original data: [Controller of Budget Reports](https://cob.go.ke/reports/consolidated-county-budget-implementation-review-reports/)
+
+### Files
+- Source data: [CSV file](/data/county-finances-sep2024.csv)
+- Documentation: [PDF documentation](/docs/county-finances-sep24.pdf)
+
+### Attribution
+This analysis uses data from the Controller of Budget, Kenya. 

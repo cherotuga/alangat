@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Datasets on Angela Langat</title>
-    <link>//localhost:1313/datasets/</link>
+    <link>//localhost:6961/datasets/</link>
     <description>Recent content in Datasets on Angela Langat</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/datasets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:6961/datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dataset Name</title>
-      <link>//localhost:1313/datasets/gok_finance/</link>
-      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/datasets/gok_finance/</guid>
+      <title>County Department Finances FY 2023/24</title>
+      <link>//localhost:6961/datasets/county-finances-sep24/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:6961/datasets/county-finances-sep24/</guid>
       <description></description>
     </item>
   </channel>

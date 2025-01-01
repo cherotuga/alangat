@@ -9,12 +9,6 @@
         <!-- Dataset Metadata Grid -->
         <div class="dataset-meta grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
             <div class="metadata-item">
-                <span class="font-semibold">Status:</span>
-                <span class="status-badge {{ if eq .Params.status "Active" }}bg-green-100{{ else }}bg-yellow-100{{ end }} px-2 py-1 rounded">
-                    {{ .Params.status }}
-                </span>
-            </div>
-            <div class="metadata-item">
                 <span class="font-semibold">Last Updated:</span>
                 <time datetime="{{ .Date.Format "2006-01-02" }}">
                     {{ .Date.Format "January 2, 2006" }}
@@ -27,14 +21,6 @@
             <div class="metadata-item">
                 <span class="font-semibold">Records:</span>
                 <span>{{ .Params.records }}</span>
-            </div>
-            <div class="metadata-item">
-                <span class="font-semibold">Update Frequency:</span>
-                <span>{{ .Params.update_frequency }}</span>
-            </div>
-            <div class="metadata-item">
-                <span class="font-semibold">License:</span>
-                <span>{{ .Params.license }}</span>
             </div>
         </div>
 
