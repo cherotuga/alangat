@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Angela Langat</title>
-    <link>//localhost:1313/blog/</link>
+    <link>//localhost:6961/blog/</link>
     <description>Recent content in Blog on Angela Langat</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:6961/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linda Mtoto</title>
-      <link>//localhost:1313/blog/lindamtoto/</link>
+      <link>//localhost:6961/blog/lindamtoto/</link>
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/blog/lindamtoto/</guid>
+      <guid>//localhost:6961/blog/lindamtoto/</guid>
       <description>&lt;h2 id=&#34;linda-mtoto&#34;&gt;Linda Mtoto&lt;/h2&gt;&#xA;&lt;p&gt;Child growth faltering often begins in utero or soon after birth and is pronounced in the first 12 to 18 months. It may continue until 40 months and then levels off Grantham-McGregor et al. (2007). Most stunted children become adults of short stature Victora et al. (2008). 21% of global deaths and disability adjusted life-years in children younger than 5 years old globally are attributed to child under-nutrition Black et al. (2008). Sigman et al. (1989) find that in Kenya, there is an association between nutrition and the cognitive skills and attentional behaviour in children.&lt;/p&gt;</description>
     </item>
   </channel>
