@@ -20,10 +20,12 @@ landing_media = "/img/home.jpg"
 
 +++
 
-# About me.
+# Hi there 👋
+
+My name is Angela Langat.
 
 I am a (Health) Economist in training.
 
 I am most interested in understanding how we as Kenyans can sustainably fund our public services.
 
-I am currently working as a Data Science Research Assistant but hope to do further study and eventually work as a researcher.
+I am currently working as a Data Science Research Assistant. I hope to do further study.
