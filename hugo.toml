@@ -14,7 +14,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.qmd$", "\\.ipynb$", "\
 [params]
 description = "Portfolio"
 email = "angela.langat@yahoo.com"
-favicon = '/favicon.ico'
+favicon = 'favicon.ico'
 # Dark mode support
 # Supported value are :
 # - off
