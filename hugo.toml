@@ -1,4 +1,4 @@
-baseURL =  "/"
+baseURL =  https://tagnal-hub.github.io/alangat/
 
 # Emoji in markdown files
 enableEmoji = true
