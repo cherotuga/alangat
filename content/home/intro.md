@@ -4,7 +4,7 @@ weight = 10
 landing_media = "img/home.jpg"
 
 [[btn]]
-    url = "blog/"
+    url = "{{< relref "blog/" >}}"
     label = "Blog"
     primary = true
 
