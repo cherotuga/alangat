@@ -7,6 +7,7 @@ tags:
 date: 2024-05-05T00:00:00.000Z
 description-meta: Did Linda Mama Improve Child Nutrition?
 banner: img/child_eating.jpg
+attribution: '<a href="https://www.flickr.com/photos/124218704@N03/14858929639" target="_blank" rel="noopener">Photo by Brydges in Kenya, 2024</a>'
 bibliography: references.bib
 execute:
   echo: false

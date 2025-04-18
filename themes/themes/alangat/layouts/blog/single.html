@@ -1,9 +1,21 @@
 {{ define "main" }}
-<button onclick="window.history.back()" class="bg-transparent border-none font-bold">&larr;{{ i18n "back" |
-	title}}</button>
+<button onclick="window.history.back()" class="bg-transparent border-none font-bold">&larr;{{ i18n "back" | title }}</button>
+
+{{ with .Params.banner }}
+<div class="text-center my-6">
+  <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="mx-auto max-w-full rounded-xl shadow-md">
+  {{ with $.Params.attribution }}
+    <p class="text-sm text-gray-500 mt-2">{{
+      . | safeHTML
+    }}</p>
+  {{ end }}
+</div>
+{{ end }}
+
 <h1 class="blog-title text-center mx-auto max-w-vw-5/6 text-4xl sm:text-5xl md:text-6xl">
 	{{ .Title }}
 </h1>
+
 {{ with .Params.subtitle }}
 <h2
 	class="blog-subtitle text-center font-serif font-thin mx-auto mb-16 md:mt-16 md:mb-32 max-w-vw-11/12 text-2xl sm:text-3xl md:text-4xl">
