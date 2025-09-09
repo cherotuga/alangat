@@ -3,21 +3,21 @@
     "version": "1.0.0",
     "description": "Portfolio",
     "scripts": {
-      "build": "hugo",
-      "dev": "hugo server",
-      "clean": "rm -rf public resources"
+        "build": "hugo",
+        "dev": "hugo server",
+        "clean": "rm -rf public resources"
     },
     "devDependencies": {
-      "@fullhuman/postcss-purgecss": "^5.0.0",
-      "autoprefixer": "^10.4.14",
-      "postcss": "^8.4.24",
-      "postcss-cli": "^10.1.0",
-      "postcss-import": "^15.1.0",
-      "tailwindcss": "^3.3.2"
+        "@fullhuman/postcss-purgecss": "^5.0.0",
+        "autoprefixer": "^10.4.14",
+        "postcss": "^8.4.24",
+        "postcss-cli": "^10.1.0",
+        "postcss-import": "^15.1.0",
+        "tailwindcss": "^4.1.13"
     },
     "browserslist": [
-      "last 1 version",
-      "not dead",
-      "> 0.2%"
+        "last 1 version",
+        "not dead",
+        "> 0.2%"
     ]
-  }
+}
