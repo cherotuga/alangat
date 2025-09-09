@@ -21,4 +21,4 @@ How has this changed?
 
 What are the weights?
 
-Read through: https://ieakenya.or.ke/blog/is-kenyas-cpi-data-reliable/i d
+Read through: https://ieakenya.or.ke/blog/is-kenyas-cpi-data-reliable/

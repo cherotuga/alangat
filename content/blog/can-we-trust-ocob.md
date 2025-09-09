@@ -20,7 +20,7 @@ What explains the disparities I see in spending?
 Check if subtotals add up.
 
 Check if budgeted amounts are consistent:
-- When is budgeting done?
+- When is budgeting done?: This was explained by Stephen Kaboro. Refer to those notes.
 
 Check if the quartely amounts are consistent
 
