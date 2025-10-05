@@ -15,14 +15,13 @@ execute:
   echo: false
 ---
 
-This was motivated by seeing a man/ woman at the back of a double cab pickup.
+This was motivated by seeing a man/ woman at the back of a double cab pickup in Johannesburg.
 
 If the reservation wages are high, employers will need to provide dignity.
 
 But some things that lower are:
 - immigration  status
 - the lack of other options ie. we in Kenya have farms back home
-
 
 Have there been empirical investigations on reservation wages. This could be something to look into?
 

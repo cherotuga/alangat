@@ -43,7 +43,6 @@ Starting point could be looking at the census:
 These could be series that I choose to focus on.
 But only when I've finished what I said I'd do.
 
-
 In SA that miners are from:
 - Zimbabwe, Angola, Malawi etc.
 

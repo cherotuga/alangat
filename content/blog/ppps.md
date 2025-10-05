@@ -37,4 +37,5 @@ Look into why did the French/ AFDB pull out of funding this in the first place.
 
 And why did Kenya move away from tolls to road taxes:
 - is it fair to tax us twice?
+- Also on corruption and the difficulties of collecting revenue if using people to do it at designated points.
 
