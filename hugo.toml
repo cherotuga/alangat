@@ -7,6 +7,9 @@ languageCode = 'en-us'
 
 title = 'Angela Langat'
 
+# Google Analytics
+googleAnalytics = "G-WRZD046VFH"
+
 theme = "themes/alangat"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.qmd$", "\\.ipynb$", "\\.py$"]
