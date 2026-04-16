@@ -5,7 +5,8 @@
     "scripts": {
         "build": "hugo",
         "dev": "hugo server",
-        "clean": "rm -rf public resources"
+        "clean": "rm -rf public resources",
+        "update-deps": "./update-dependencies.sh"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^5.0.0",
